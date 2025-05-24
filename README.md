@@ -1,16 +1,19 @@
-#  Mean and variance of a discrete  distribution
+# NMAE : ANTONY ABISHEK
 
+# REGISTER NO : 212223240009
 
-# Aim : 
+#  MEAN AND VARIANCE OF A DISCRETE  DISTRIBUTION
+
+# AIM : 
 
 To find mean and variance of arrival of objects from the feeder using probability distribution
 
 
-# Software required :  
+# SOFTWARW REQUIRED:  
 
 Python and Visual components tool
 
-# Theory:
+# THEORY:
 
 The expectation or the mean of a discrete random variable is a weighted average of all possible
 values of the random variable. The weights are the probabilities associated with the corresponding values. 
@@ -24,7 +27,7 @@ It shows the distance of a random variable from its mean. It is calcualted as
 ![image](https://user-images.githubusercontent.com/103921593/192938695-99fedc01-34d5-4d36-84df-5880e766ed0c.png)
 
 
-# Procedure :
+# PROCEDURE :
 
 1. Construct frequency distribution for the data
 
@@ -43,14 +46,18 @@ It shows the distance of a random variable from its mean. It is calcualted as
       ![image](https://user-images.githubusercontent.com/103921593/192942852-913550a9-fabe-4a55-b956-0487b18bbd97.png)
 
 
-# Experiment :
+# EXPERIMENT :
 
 ![image](https://user-images.githubusercontent.com/103921593/229993174-5b67e57e-3e01-4ac4-9f83-410a932b22bf.png)
 
-# Program :
-Developed By : Antony Abishek
-Ref No : 23004375
+# PROGRAM :
+
+DEVELOPED BY: ANTONY ABISHEK
+
+REF NO : 23004375
+
 ```
+
 import numpy as np
 L=[int(i) for i in input().split()]
 N=len(L); M=max(L) 
@@ -73,13 +80,14 @@ SD=np.sqrt(var)
 print("The Mean arrival rate is %.3f "%mean)
 print("The Variance of arrival from feeder is %.3f "%var) 
 print("The Standard deviation of arrival from feeder is %.3F "%SD)
+
 ```
 
 
 
-# Output : 
+# OUTPUT : 
 ![image](https://github.com/Antonyabishek2004/Mean-and-Variance/assets/138849620/66897e26-f69c-402d-811e-547986fbc794)
 
-# Results :
+# RESULT :
 The mean and variance of arrivals of objects from feeder using probability distribution are calculated.
 
